@@ -15,16 +15,19 @@ export default function Menu(props: any) {
         </div>
 
         <div className="socials flex gap-2">
-          <a href="">
+          <a className="hover:drop-shadow-lg" href="">
             <LinkedinLogo size={32} color=" #fff" weight="fill" />
           </a>
-          <a href="">
+          <a
+            className="hover:drop-shadow-lg"
+            href="https://www.instagram.com/ultra.log.br"
+          >
             <InstagramLogo size={32} color=" #fff" weight="fill" />
           </a>
-          <a href="">
+          <a className="hover:drop-shadow-lg" href="">
             <FacebookLogo size={32} color=" #fff" weight="fill" />
           </a>
-          <a href="">
+          <a className="hover:drop-shadow-lg" href="">
             <WhatsappLogo size={32} color=" #fff" weight="fill" />
           </a>
         </div>

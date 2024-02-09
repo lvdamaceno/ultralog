@@ -42,10 +42,21 @@ export default function Institucional(props: any) {
             <h1 className="uppercase pb-2 font-bold">redes sociais</h1>
             <span className="flex items-center uppercase cursor-pointer">
               <div className="socials flex">
-                <LinkedinLogo size={32} color=" #ea580c" weight="fill" />
-                <InstagramLogo size={32} color=" #ea580c" weight="fill" />
-                <FacebookLogo size={32} color=" #ea580c" weight="fill" />
-                <WhatsappLogo size={32} color=" #ea580c" weight="fill" />
+                <a className="hover:drop-shadow-lg" href="">
+                  <LinkedinLogo size={32} color=" #ea580c" weight="fill" />
+                </a>
+                <a
+                  className="hover:drop-shadow-lg target:"
+                  href="https://www.instagram.com/ultra.log.br"
+                >
+                  <InstagramLogo size={32} color=" #ea580c" weight="fill" />
+                </a>
+                <a className="hover:drop-shadow-lg" href="">
+                  <FacebookLogo size={32} color=" #ea580c" weight="fill" />
+                </a>
+                <a className="hover:drop-shadow-lg" href="">
+                  <WhatsappLogo size={32} color=" #ea580c" weight="fill" />
+                </a>
               </div>
             </span>
           </div>
