@@ -6,7 +6,7 @@ export default function Atendimento(props: any) {
     <div className="atendimento  pt-5 ">
       <div className="local max-w-4xl m-auto text-center pb-10">
         <h1 className="uppercase text-2xl pb-5">Área de abrangência</h1>
-        <h2 className="pb-10 text-zinc-700">
+        <h2 className="pb-10 px-5 text-zinc-700">
           Estamos empenhados ao máximo para expandir nossa cobertura e atender
           toda a região Norte do Brasil. Atualmente, já marcamos presença na
           região metropolitana de Belém e estamos trabalhando incansavelmente
