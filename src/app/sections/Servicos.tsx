@@ -22,7 +22,7 @@ export default function Servicos(props: any) {
       <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
         <Servico
           title="MONTAGEM"
-          text="O serviço de montagem de móveis oferece uma montagem especializada no local do cliente, realizada por montadores profissionais. Este serviço é projetado para garantir que seus móveis sejam montados corretamente, com segurança e sem danos, proporcionando comodidade e tranquilidade, consulte nossa área de abrangência."
+          text="Este serviço é projetado para garantir que seus móveis sejam montados corretamente, com segurança e sem danos, proporcionando comodidade e tranquilidade, consulte nossa área de abrangência."
           src={montagem}
         />
         <Servico
