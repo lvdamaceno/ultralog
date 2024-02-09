@@ -10,6 +10,7 @@ import firstmile from '/src/app/assets/servicos/first-mile.jpeg';
 import reversa from '/src/app/assets/servicos/reversa.jpg';
 import b2c from '/src/app/assets/servicos/b2c.jpg';
 import especiais from '/src/app/assets/servicos/especiais.jpg';
+
 import fracionado from '/src/app/assets/servicos/fracionado.jpeg';
 
 export default function Servicos(props: any) {
@@ -21,17 +22,17 @@ export default function Servicos(props: any) {
       <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
         <Servico
           title="MONTAGEM"
-          text="Oferecemos serviços profissionais de montagem de móveis para tornar sua casa mais funcional e elegante"
+          text="O serviço de montagem de móveis oferece uma montagem especializada no local do cliente, realizada por montadores profissionais. Este serviço é projetado para garantir que seus móveis sejam montados corretamente, com segurança e sem danos, proporcionando comodidade e tranquilidade, consulte nossa área de abrangência."
           src={montagem}
         />
         <Servico
           title="P2P "
-          text="Logística focada em expedições do Centro de Distribuição ao consumidor, potencialmente com entrega no mesmo dia."
+          text="Gestão de envio de produtos com saída direta do centro de distribuição para o endereço do cliente, com entregas que podem ser efetuadas até o final do dia."
           src={p2p}
         />
         <Servico
           title="SAME DAY"
-          text="Logística rápida: coletas até 14h, entrega até 22h no mesmo dia, com regiões definidas sob consulta."
+          text="Soluções logísticas para entregas aceleradas. Nosso alvo é a menor janela de tempo para entrega, ideal para pedidos feitos até 14h com entrega garantida até 22h em áreas selecionadas, mediante consulta."
           src={sameday}
         />
       </div>
@@ -39,19 +40,19 @@ export default function Servicos(props: any) {
         <Servico
           title="FIRST-MILE
             "
-          text="Serviço de coleta em Sellers, com opções de postagem local pela ECT e devolução para HUB centralizador."
+          text="Serviço especializado em coleta de produtos em vendedores, com alternativas de envio local e devoluções centralizadas, organizado pelo transportador."
           src={firstmile}
         />
         <Servico
           title="LOGÍSTICA REVERSA
             "
-          text="Logística para SAC, troca e retirada de produtos. Prazos e abrangência disponíveis mediante consulta."
+          text="Soluções logísticas voltadas para o suporte ao cliente e processos de devolução de produtos. Cobertura e prazos disponíveis sob consulta."
           src={reversa}
         />
         <Servico
           title="ENTREGA DIRETA B2C
             "
-          text="Logística para operações B2C com até 30 kg e múltiplos volumes. Prazos e abrangência mediante consulta.
+          text="Estratégias de entrega para transações do negócio para o consumidor até 30 kg, com flexibilidade em volume. Cobertura e prazos disponíveis mediante consulta.
             "
           src={b2c}
         />
@@ -60,18 +61,18 @@ export default function Servicos(props: any) {
       <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
         <Servico
           title="PROJETOS ESPECIAIS"
-          text="Operações personalizadas para atender às necessidades dos clientes. Prazos e alcance disponíveis mediante consulta.
+          text="Criamos soluções sob medida para atender às exigências específicas dos nossos clientes. Disponibilidade e prazos sob consulta.
             "
           src={especiais}
         />
         <Servico
           title="ultra EXPRESs"
-          text="Constantemente inovando para melhorar prazos em toda a região metropolitana de Belém, mantendo liderança e eficiência."
+          text="Comprometidos em liderar com inovações e melhorias contínuas em prazos, abrangendo toda nossa área de serviço. Presentes em toda a região metropolitana de Belém."
           src={express}
         />
         <Servico
           title="FRACIONADO"
-          text="Logística direcionada para operações de B2C e B2B acima de 30 kg. Prazos e abrangência sob consulta."
+          text="Logística adaptada para B2C para itens acima de 30 kg, com prazos e áreas de serviço sob consulta."
           src={fracionado}
         />
       </div>
