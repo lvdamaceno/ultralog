@@ -100,7 +100,7 @@ export default function Home() {
           <Servico
             title="MONTAGEM"
             text="Oferecemos serviços profissionais de montagem de móveis para tornar sua casa mais funcional e elegante"
-            src={montagem}
+            src={banner}
           />
           <Servico
             title="P2P "
