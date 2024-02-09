@@ -19,6 +19,10 @@ import express from '/src/app/assets/ultra-express.jpeg';
 import location from '/src/app/assets/location.jpeg';
 import montagem from '/src/app/assets/montagem.webp';
 import reversa from '/src/app/assets/reversa.jpg';
+import b2c from '/src/app/assets/b2c.jpg';
+import especiais from '/src/app/assets/especiais.jpg';
+import fracionado from '/src/app/assets/fracionado.webp';
+import first from '/src/app/assets/first-mile.webp';
 
 import Servico from './components/Servico';
 
@@ -95,66 +99,58 @@ export default function Home() {
         <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
           <Servico
             title="MONTAGEM"
-            text="Logística direcionada para produtos que tem sua expedição direto
-            do Centro de Distribuição diretamente para o consumidor final com
-            a entrega podendo ser realizada até no mesmo dia."
+            text="Oferecemos serviços profissionais de montagem de móveis para tornar sua casa mais funcional e elegante"
             src={montagem}
           />
           <Servico
-            title="P2P - SHIP FROM STORE"
-            text="Logística direcionada para produtos que tem sua expedição direto
-            do Centro de Distribuição diretamente para o consumidor final com
-            a entrega podendo ser realizada até no mesmo dia."
+            title="P2P "
+            text="Logística focada em expedições do Centro de Distribuição ao consumidor, potencialmente com entrega no mesmo dia."
             src={p2p}
           />
           <Servico
             title="SAME DAY"
-            text="Logística voltada para entrega rápida de produtos. Nosso objetivo
-              é entregar no menor prazo possível. Indicado para coletas até 14h
-              e entrega no mesmo dia até 22h com regiões a definir sob consulta."
+            text="Logística rápida: coletas até 14h, entrega até 22h no mesmo dia, com regiões definidas sob consulta."
             src={sameday}
           />
         </div>
         <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
           <Servico
-            title="FIRST-MILE (Coleta em Sellers)
+            title="FIRST-MILE
             "
-            text="Serviço direcionado para coleta em Sellers com opções de Postagem ECT Local e Devolução para HUB centralizador direcionado pelo Embarcador."
-            src={banner}
+            text="Serviço de coleta em Sellers, com opções de postagem local pela ECT e devolução para HUB centralizador."
+            src={first}
           />
           <Servico
             title="LOGÍSTICA REVERSA
             "
-            text="Logística direcionada para atendimento de SAC e soluções de troca e retirada de produtos. Prazos e abrangência sob consulta."
+            text="Logística para SAC, troca e retirada de produtos. Prazos e abrangência disponíveis mediante consulta."
             src={reversa}
           />
           <Servico
             title="ENTREGA DIRETA B2C
             "
-            text="Logística direcionada para operações de B2C até 30 kg agregando-se múltiplos volumes. Prazos e abrangência sob consulta.
+            text="Logística para operações B2C com até 30 kg e múltiplos volumes. Prazos e abrangência mediante consulta.
             "
-            src={banner}
+            src={b2c}
           />
         </div>
 
         <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
           <Servico
             title="PROJETOS ESPECIAIS"
-            text="Desenhamos operações customizadas para atender as necessidades de nossos clientes. Prazos e abrangência sob consulta.
+            text="Operações personalizadas para atender às necessidades dos clientes. Prazos e alcance disponíveis mediante consulta.
             "
-            src={banner}
+            src={especiais}
           />
           <Servico
             title="ultra EXPRESs"
-            text="Sempre buscando estar à frente e com inovação estamos
-            constantemente buscando melhorias de prazos em toda a nossa
-            abrangência. Atuamos em todo a região metropolitana de Belém."
+            text="Constantemente inovando para melhorar prazos em toda a região metropolitana de Belém, mantendo liderança e eficiência."
             src={express}
           />
           <Servico
             title="FRACIONADO"
             text="Logística direcionada para operações de B2C e B2B acima de 30 kg. Prazos e abrangência sob consulta."
-            src={banner}
+            src={fracionado}
           />
         </div>
       </div>

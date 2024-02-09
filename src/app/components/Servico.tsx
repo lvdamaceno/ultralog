@@ -8,8 +8,8 @@ export default function Servico(props: any) {
         <Image src={props.src} alt="image" quality={50} object-fill />
       </div>
       <div className=" flex flex-col gap-2">
-        <h1 className="uppercase text-2xl h-14 text-center">{props.title}</h1>
-        <p className="text-justify">{props.text}</p>
+        <h1 className="uppercase text-2xl h-6 text-center">{props.title}</h1>
+        <p className="text-center">{props.text}</p>
       </div>
     </div>
   );
