@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import sameday from '/src/app/assets/same-day.webp';
 
 export default function Servico(props: any) {
   return (
