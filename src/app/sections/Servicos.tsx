@@ -4,6 +4,7 @@ import banner from '/src/app/assets/principal.jpeg';
 import p2p from '/src/app/assets/ship-from.webp';
 import sameday from '/src/app/assets/same-day.webp';
 import express from '/src/app/assets/ultra-express.jpeg';
+import montagem from '/src/app/assets/montagem.webp';
 
 export default function Servicos(props: any) {
   return (
@@ -15,7 +16,7 @@ export default function Servicos(props: any) {
         <Servico
           title="MONTAGEM"
           text="Oferecemos serviços profissionais de montagem de móveis para tornar sua casa mais funcional e elegante"
-          src={banner}
+          src={montagem}
         />
         <Servico
           title="P2P "
