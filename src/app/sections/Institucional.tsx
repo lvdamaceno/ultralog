@@ -67,7 +67,7 @@ export default function Institucional(props: any) {
             <h1 className="uppercase pb-2 font-bold">endereço</h1>
             <a
               href="https://maps.app.goo.gl/PJ78d7ShM9ELnuU87"
-              className="uppercase text-sm"
+              className="uppercase text-sm text-center"
             >
               Tv. Santa Maria, 47, Atalaia Ananindeua/PA
             </a>
