@@ -17,6 +17,7 @@ import p2p from '/src/app/assets/ship-from.webp';
 import sameday from '/src/app/assets/same-day.webp';
 import express from '/src/app/assets/ultra-express.jpeg';
 import location from '/src/app/assets/location.jpeg';
+import Servico from './components/Servico';
 
 export default function Home() {
   return (
@@ -52,11 +53,12 @@ export default function Home() {
       </div>
       {/* menu */}
       <div className="menu justify-between bg-orange-600 p-5 text-white">
-        <div className="menu-itens max-w-4xl m-auto flex flex-col md:flex-row justify-between items-center ">
-          <a href="">HOME</a>
-          <a href="">QUEM SOMOS</a>
-          <a href="">NOSSOS SERVIÇOS</a>
-          <a href="">ÁREA DE ABRANGÊNCIA</a>
+        <div className="menu-itens max-w-4xl m-auto flex flex-col md:flex-row justify-between items-center gap-5">
+          <div className="flex gap-5">
+            <a href="">HOME</a>
+            <a href="">QUEM SOMOS</a>
+          </div>
+
           <div className="socials flex gap-2">
             <a href="">
               <LinkedinLogo size={32} color=" #fff" weight="fill" />
@@ -88,42 +90,71 @@ export default function Home() {
           nossos principais serviços
         </h1>
         <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
-          <div className="card border flex flex-col gap-3 rounded-lg overflow-hidden p-2">
-            <Image src={p2p} alt="trucks" quality={50} />
-            <h1 className="uppercase text-2xl">P2P - SHIP FROM STORE</h1>
-            <p className="text-justify">
-              Logística direcionada para produtos que tem sua expedição direto
-              do Centro de Distribuição diretamente para o consumidor final com
-              a entrega podendo ser realizada até no mesmo dia.
-            </p>
-            <button className="uppercase p-2 bg-orange-600 rounded-lg hover:bg-orange-400">
-              saiba mais
-            </button>
-          </div>
-          <div className="card flex border p-2 flex-col gap-3 rounded-lg overflow-hidden">
-            <Image src={sameday} alt="trucks" quality={50} />
-            <h1 className="uppercase text-2xl">SAME DAY</h1>
-            <p className="text-justify">
-              Logística voltada para entrega rápida de produtos. Nosso objetivo
+          <Servico
+            title="MONTAGEM"
+            text="Logística direcionada para produtos que tem sua expedição direto
+            do Centro de Distribuição diretamente para o consumidor final com
+            a entrega podendo ser realizada até no mesmo dia."
+            src={banner}
+          />
+          <Servico
+            title="P2P - SHIP FROM STORE"
+            text="Logística direcionada para produtos que tem sua expedição direto
+            do Centro de Distribuição diretamente para o consumidor final com
+            a entrega podendo ser realizada até no mesmo dia."
+            src={p2p}
+          />
+          <Servico
+            title="SAME DAY"
+            text="Logística voltada para entrega rápida de produtos. Nosso objetivo
               é entregar no menor prazo possível. Indicado para coletas até 14h
-              e entrega no mesmo dia até 22h com regiões a definir sob consulta.
-            </p>
-            <button className="uppercase p-2 bg-orange-600 rounded-lg hover:bg-orange-400">
-              saiba mais
-            </button>
-          </div>
-          <div className="card flex border p-2 flex-col gap-3 rounded-lg overflow-hidden">
-            <Image src={express} alt="trucks" quality={50} />
-            <h1 className="uppercase text-2xl">ultra EXPRESs</h1>
-            <p className="text-justify">
-              Sempre buscando estar à frente e com inovação estamos
-              constantemente buscando melhorias de prazos em toda a nossa
-              abrangência. Atuamos em todo a região metropolitana de Belém.
-            </p>
-            <button className="uppercase p-2 bg-orange-600 rounded-lg hover:bg-orange-400">
-              saiba mais
-            </button>
-          </div>
+              e entrega no mesmo dia até 22h com regiões a definir sob consulta."
+            src={sameday}
+          />
+        </div>
+        <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
+          <Servico
+            title="FIRST-MILE (Coleta em Sellers)
+            "
+            text="Serviço direcionado para coleta em Sellers com opções de Postagem ECT Local e Devolução para HUB centralizador direcionado pelo Embarcador."
+            src={banner}
+          />
+          <Servico
+            title="LOGÍSTICA REVERSA
+            "
+            text="Logística direcionada para atendimento de SAC e soluções de troca e retirada de produtos. Prazos e abrangência sob consulta."
+            src={banner}
+          />
+          <Servico
+            title="ENTREGA DIRETA B2C
+            "
+            text="Logística direcionada para operações de B2C até 30 kg agregando-se múltiplos volumes. Prazos e abrangência sob consulta.
+            "
+            src={banner}
+          />
+        </div>
+
+        <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
+          <Servico
+            title="FRACIONADO
+            "
+            text="Logística direcionada para operações de B2C e B2B acima de 30 kg. Prazos e abrangência sob consulta.
+            "
+            src={banner}
+          />
+          <Servico
+            title="PROJETOS ESPECIAIS"
+            text="Desenhamos operações customizadas para atender as necessidades de nossos clientes. Prazos e abrangência sob consulta.
+            "
+            src={banner}
+          />
+          <Servico
+            title="ultra EXPRESs"
+            text="Sempre buscando estar à frente e com inovação estamos
+            constantemente buscando melhorias de prazos em toda a nossa
+            abrangência. Atuamos em todo a região metropolitana de Belém."
+            src={express}
+          />
         </div>
       </div>
       {/* atendimento */}
