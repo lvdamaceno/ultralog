@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       {/* menu */}
       <div className="menu justify-between bg-orange-600 p-5 text-white">
-        <div className="menu-itens max-w-4xl m-auto flex justify-between items-center ">
+        <div className="menu-itens max-w-4xl m-auto flex flex-col md:flex-row justify-between items-center ">
           <a href="">HOME</a>
           <a href="">QUEM SOMOS</a>
           <a href="">NOSSOS SERVIÇOS</a>
