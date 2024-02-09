@@ -3,10 +3,14 @@ import sameday from '/src/app/assets/same-day.webp';
 
 export default function Servico(props: any) {
   return (
-    <div className="card border flex flex-col gap-3 rounded-lg overflow-hidden p-2">
-      <Image src={props.src} alt="trucks" quality={50} />
-      <h1 className="uppercase text-2xl">{props.title}</h1>
-      <p className="text-justify">{props.text}</p>
+    <div className="card border flex flex-col gap-2 rounded-lg overflow-hidden p-2 hover:shadow-2xl w-full">
+      <div className="w-full rounded-lg ">
+        <Image src={props.src} alt="image" quality={50} object-fill />
+      </div>
+      <div className=" flex flex-col gap-2">
+        <h1 className="uppercase text-2xl h-14 text-center">{props.title}</h1>
+        <p className="text-justify">{props.text}</p>
+      </div>
     </div>
   );
 }

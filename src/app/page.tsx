@@ -17,6 +17,9 @@ import p2p from '/src/app/assets/ship-from.webp';
 import sameday from '/src/app/assets/same-day.webp';
 import express from '/src/app/assets/ultra-express.jpeg';
 import location from '/src/app/assets/location.jpeg';
+import montagem from '/src/app/assets/montagem.webp';
+import reversa from '/src/app/assets/reversa.jpg';
+
 import Servico from './components/Servico';
 
 export default function Home() {
@@ -76,7 +79,7 @@ export default function Home() {
         </div>
       </div>
       {/* banner */}
-      <div className="banner max-w-4xl m-auto pt-5 items-center object-cover ">
+      <div className="banner drop-shadow-xl max-w-4xl m-auto pt-5 items-center object-cover ">
         <Image
           src={banner}
           alt="banner"
@@ -95,7 +98,7 @@ export default function Home() {
             text="Logística direcionada para produtos que tem sua expedição direto
             do Centro de Distribuição diretamente para o consumidor final com
             a entrega podendo ser realizada até no mesmo dia."
-            src={banner}
+            src={montagem}
           />
           <Servico
             title="P2P - SHIP FROM STORE"
@@ -123,7 +126,7 @@ export default function Home() {
             title="LOGÍSTICA REVERSA
             "
             text="Logística direcionada para atendimento de SAC e soluções de troca e retirada de produtos. Prazos e abrangência sob consulta."
-            src={banner}
+            src={reversa}
           />
           <Servico
             title="ENTREGA DIRETA B2C
@@ -136,13 +139,6 @@ export default function Home() {
 
         <div className="cards flex flex-col justify-between gap-5 pb-5 px-5 md:flex-row md:px-0">
           <Servico
-            title="FRACIONADO
-            "
-            text="Logística direcionada para operações de B2C e B2B acima de 30 kg. Prazos e abrangência sob consulta.
-            "
-            src={banner}
-          />
-          <Servico
             title="PROJETOS ESPECIAIS"
             text="Desenhamos operações customizadas para atender as necessidades de nossos clientes. Prazos e abrangência sob consulta.
             "
@@ -154,6 +150,11 @@ export default function Home() {
             constantemente buscando melhorias de prazos em toda a nossa
             abrangência. Atuamos em todo a região metropolitana de Belém."
             src={express}
+          />
+          <Servico
+            title="FRACIONADO"
+            text="Logística direcionada para operações de B2C e B2B acima de 30 kg. Prazos e abrangência sob consulta."
+            src={banner}
           />
         </div>
       </div>
