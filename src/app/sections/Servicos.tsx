@@ -2,10 +2,15 @@ import Servico from '../components/Servico';
 
 import banner from '/src/app/assets/banner.jpeg';
 
-import p2p from '/src/app/assets/servicos/ship-from.webp';
-import sameday from '/src/app/assets/servicos/same-day.webp';
+import p2p from '/src/app/assets/servicos/ship-from.jpeg';
+import sameday from '/src/app/assets/servicos/same-day.jpeg';
 import express from '/src/app/assets/servicos/ultra-express.jpeg';
 import montagem from '/src/app/assets/servicos/montagem.jpeg';
+import firstmile from '/src/app/assets/servicos/first-mile.jpeg';
+import reversa from '/src/app/assets/servicos/reversa.jpg';
+import b2c from '/src/app/assets/servicos/b2c.jpg';
+import especiais from '/src/app/assets/servicos/especiais.jpg';
+import fracionado from '/src/app/assets/servicos/fracionado.jpeg';
 
 export default function Servicos(props: any) {
   return (
@@ -35,20 +40,20 @@ export default function Servicos(props: any) {
           title="FIRST-MILE
             "
           text="Serviço de coleta em Sellers, com opções de postagem local pela ECT e devolução para HUB centralizador."
-          src={banner}
+          src={firstmile}
         />
         <Servico
           title="LOGÍSTICA REVERSA
             "
           text="Logística para SAC, troca e retirada de produtos. Prazos e abrangência disponíveis mediante consulta."
-          src={banner}
+          src={reversa}
         />
         <Servico
           title="ENTREGA DIRETA B2C
             "
           text="Logística para operações B2C com até 30 kg e múltiplos volumes. Prazos e abrangência mediante consulta.
             "
-          src={banner}
+          src={b2c}
         />
       </div>
 
@@ -57,7 +62,7 @@ export default function Servicos(props: any) {
           title="PROJETOS ESPECIAIS"
           text="Operações personalizadas para atender às necessidades dos clientes. Prazos e alcance disponíveis mediante consulta.
             "
-          src={banner}
+          src={especiais}
         />
         <Servico
           title="ultra EXPRESs"
@@ -67,7 +72,7 @@ export default function Servicos(props: any) {
         <Servico
           title="FRACIONADO"
           text="Logística direcionada para operações de B2C e B2B acima de 30 kg. Prazos e abrangência sob consulta."
-          src={banner}
+          src={fracionado}
         />
       </div>
     </div>
