@@ -118,20 +118,20 @@ export default function Home() {
             title="FIRST-MILE
             "
             text="Serviço de coleta em Sellers, com opções de postagem local pela ECT e devolução para HUB centralizador."
-            src={first}
+            src={banner}
           />
           <Servico
             title="LOGÍSTICA REVERSA
             "
             text="Logística para SAC, troca e retirada de produtos. Prazos e abrangência disponíveis mediante consulta."
-            src={reversa}
+            src={banner}
           />
           <Servico
             title="ENTREGA DIRETA B2C
             "
             text="Logística para operações B2C com até 30 kg e múltiplos volumes. Prazos e abrangência mediante consulta.
             "
-            src={b2c}
+            src={banner}
           />
         </div>
 
@@ -140,7 +140,7 @@ export default function Home() {
             title="PROJETOS ESPECIAIS"
             text="Operações personalizadas para atender às necessidades dos clientes. Prazos e alcance disponíveis mediante consulta.
             "
-            src={especiais}
+            src={banner}
           />
           <Servico
             title="ultra EXPRESs"
@@ -150,7 +150,7 @@ export default function Home() {
           <Servico
             title="FRACIONADO"
             text="Logística direcionada para operações de B2C e B2B acima de 30 kg. Prazos e abrangência sob consulta."
-            src={fracionado}
+            src={banner}
           />
         </div>
       </div>
