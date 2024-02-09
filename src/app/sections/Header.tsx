@@ -10,24 +10,22 @@ export default function Header(props: any) {
         <p className="text-4xl font-semibold">ultra.log.br</p>
         <Image src={logo} alt="Logo" quality={50} width={75} />
       </div>
-      <div className="side-menu flex gap-5 pr-5">
-        <div className="flex items-center gap-2">
+      <div className="side-menu flex gap-5 justify-between px-2">
+        <div className=" flex items-center gap-2 text-center">
           <a
             href="https://parceiros.ultra.log.br/"
             className="flex items-center gap-2 "
           >
             <Handshake size={32} color=" #ea580c" weight="fill" />
-
             <p className="uppercase">Seja nosso parceiro</p>
           </a>
         </div>
-        <div className="flex items-center gap-2">
+        <div className=" flex items-center gap-2 text-center">
           <a
             href="https://cademeupedido.fusiondms.com.br/"
             className="flex items-center gap-2 "
           >
             <MapPinLine size={32} color=" #ea580c" weight="fill" />
-
             <p className="uppercase">Rastreie seu pedido</p>
           </a>
         </div>
