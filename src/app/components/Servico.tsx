@@ -8,7 +8,7 @@ export default function Servico(props: any) {
       </div>
       <div className=" flex flex-col gap-2">
         <h1 className="uppercase text-2xl h-6 text-center">{props.title}</h1>
-        <p className="text-center">{props.text}</p>
+        <p className="text-center text-zinc-700">{props.text}</p>
       </div>
     </div>
   );

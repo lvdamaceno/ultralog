@@ -22,12 +22,6 @@ export default function Institucional(props: any) {
             <span className="flex items-center gap-1 uppercase cursor-pointer text-sm pb-1">
               <CaretDoubleRight /> quem somos
             </span>
-            <span className="flex items-center gap-1 uppercase cursor-pointer text-sm pb-1">
-              <CaretDoubleRight /> nossos serviços
-            </span>
-            <span className="flex items-center gap-1 uppercase cursor-pointer text-sm pb-1">
-              <CaretDoubleRight /> abrangência
-            </span>
           </div>
           <div className=" px-4">
             <h1 className="uppercase pb-2 font-bold">pedidos</h1>
