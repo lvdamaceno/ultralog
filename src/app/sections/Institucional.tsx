@@ -10,20 +10,15 @@ export default function Institucional(props: any) {
   return (
     <div className="institucional max-w-4xl m-auto py-5 ">
       <div className="flex justify-around md:justify-between">
-        {/* <div className="logo md:visible">
-            <Image src={logo} alt="Logo" quality={50} />
-          </div> */}
-        <div className="flex flex-col gap-5 md:flex-row ">
-          <div className=" px-4">
+        <div className="flex flex-col gap-5 md:flex-row w-full">
+          <div className=" px-4 w-full">
             <h1 className="uppercase pb-2 font-bold">institucional</h1>
-            <span className="flex items-center gap-1 uppercase cursor-pointer text-sm pb-1">
-              <CaretDoubleRight /> Home
-            </span>
+
             <span className="flex items-center gap-1 uppercase cursor-pointer text-sm pb-1">
               <CaretDoubleRight /> quem somos
             </span>
           </div>
-          <div className=" px-4">
+          <div className=" px-4 w-full">
             <h1 className="uppercase pb-2 font-bold">pedidos</h1>
             <span className="flex items-center gap-1 uppercase cursor-pointer text-sm">
               <CaretDoubleRight /> rastrear pedido
@@ -31,8 +26,8 @@ export default function Institucional(props: any) {
           </div>
         </div>
 
-        <div className="flex flex-col gap-5 md:flex-row ">
-          <div className=" px-4">
+        <div className="flex flex-col gap-5 md:flex-row w-full">
+          <div className=" px-4 w-full">
             <h1 className="uppercase pb-2 font-bold">redes sociais</h1>
             <span className="flex items-center uppercase cursor-pointer">
               <div className="socials flex">
@@ -54,7 +49,7 @@ export default function Institucional(props: any) {
               </div>
             </span>
           </div>
-          <div className="  px-4">
+          <div className="  px-4 w-full">
             <h1 className="uppercase pb-2 font-bold">endereço</h1>
             <a
               href="https://maps.app.goo.gl/PJ78d7ShM9ELnuU87"

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Servico(props: any) {
   return (
-    <div className="card border flex flex-col gap-2 rounded-lg overflow-hidden p-2 hover:shadow-2xl w-full">
+    <div className="card border flex flex-col gap-2 rounded-lg overflow-hidden p-2 hover:shadow-2xl  w-full">
       <div className="w-full rounded-lg overflow-hidden">
         <Image src={props.src} alt="image" quality={50} />
       </div>
