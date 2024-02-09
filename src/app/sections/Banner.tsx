@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import banner from '/src/app/assets/principal.jpeg';
+import banner from '/src/app/assets/banner.jpeg';
 
 export default function Banner(props: any) {
   return (
