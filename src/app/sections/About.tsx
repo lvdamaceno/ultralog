@@ -4,7 +4,7 @@ export default function About(props: any) {
   return (
     <div
       id="ABOUT"
-      className="about max-w-4xl m-auto border-b-2 border-t-2 mb-10 border-orange-600"
+      className="about max-w-4xl m-auto border-t-2 border-orange-600"
     >
       <h1 className="text-center text-3xl font-semibold text-orange-600 pt-5 pb-5">
         ultra.log.br
